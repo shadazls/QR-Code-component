@@ -6,13 +6,21 @@ body {
     width: 100wh;
     margin: 0;
     background-color: #D5E1EF;
-    font-family: 'Outfit';
+    font-family: 'Outfit', sans-serif;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
 }
 
 #main-container {
     display: flex;
-    align-items: center;
     flex-direction: column;
+    align-items: center; /* Centrage horizontal */
     width: 22.22%;
     height: 62.13%;
     background-color: hsl(0, 0%, 100%);
@@ -22,10 +30,9 @@ body {
 }
 
 .main-container-element {
-    display: flex;
     text-align: center;
-    width: 70%;
-    margin-top: 5%;
+    width: 80%;
+    margin-top: 2.5%;
 }
 
 #main-container-image {
@@ -35,13 +42,13 @@ body {
 
 #main-container-title {
     font-weight: 700;
-    font-size: 1.25vw;
+    font-size: 1.5vw;
     color: #1F314F;
     margin-top: 10%;
 }
 
 #main-container-text {
     font-weight: 400;
-    font-size: 0.75vw;
+    font-size: 1vw;
     color: #7D889E;
 }
